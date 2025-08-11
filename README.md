@@ -50,7 +50,7 @@ secure-voting/
     "voted": true
   }
 ]
-
+```
 ---
 
 ## Installation & Run (Flask example)
@@ -60,3 +60,4 @@ secure-voting/
 ```bash
 git clone [https://github.com/yourusername/secure-voting.git](https://github.com/yourusername/secure-voting.git)
 cd secure-voting/backend
+```
