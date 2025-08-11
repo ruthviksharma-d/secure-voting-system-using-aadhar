@@ -32,22 +32,24 @@ secure-voting/
 ```
 ---
 
-## voters.json (example)
+## voters_database.json (example)
 ```json
 [
   {
-    "name": "John Doe",
     "aadhar": "123456789012",
-    "fingerprintFile": "john_doe_fp.png",
-    "fingerprintHash": "sha256-abc123...", 
-    "voted": false
+    "name": "John Smith",
+    "fingerprint_file": "john_fingerprint.wsq",
+    "voted": true,
+    "vote_candidate": "Candidate A",
+    "vote_timestamp": "2025-08-11 19:27:46"
   },
   {
-    "name": "Jane Doe",
-    "aadhar": "987654321098",
-    "fingerprintFile": "jane_doe_fp.png",
-    "fingerprintHash": "sha256-def456...",
-    "voted": true
+    "aadhar": "234567890123",
+    "name": "Sarah Johnson",
+    "fingerprint_file": "sarah_fingerprint.jpg",
+    "voted": false,
+    "vote_candidate": null,
+    "vote_timestamp": null
   }
 ]
 ```
