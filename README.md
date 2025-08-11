@@ -64,8 +64,7 @@ secure-voting/
 ---
 ## Security Recommendations
 
-- Do not rely on filename alone—filenames can be changed by anyone. Instead, hash the uploaded fingerprint file (e.g., SHA-256) and compare it to a stored fingerprintHash.
-- Integrate a biometric SDK (like VeriFinger or Mantra) to perform pattern matching for true biometric verification.
+- Do not rely on filename alone—filenames can be changed by anyone. Instead, hash the uploaded fingerprint file and compare it to a stored fingerprint.
 - Use a database (SQLite, PostgreSQL, or MongoDB) instead of a flat JSON file to avoid corruption and race conditions.
 - Always perform checks server-side. Never trust client-side logic for authentication or vote-locking.
 - Use HTTPS to protect fingerprint uploads and data in transit.
@@ -74,30 +73,23 @@ secure-voting/
 ---
 
 ## Limitations
-Prototype-level: This is useful for learning, but not production-ready.
-
-Fingerprint filename matching is insecure by itself.
-
-JSON file persistence is fragile under concurrent writes
+- Prototype-level: This is useful for learning, but not production-ready.
+- Fingerprint filename matching is insecure by itself.
+- JSON file persistence is fragile under concurrent writes
 
 ---
+
 ## How to Test Locally
-Pre-populate voters.json with a test user.
-
-Use the frontend to upload the matching fingerprint file.
-
-Verify you can vote once.
-
-Try voting again to confirm the duplicate-vote block.
+- Pre-populate voters.json with a test user.
+- Use the frontend to upload the matching fingerprint file.
+- Verify you can vote once.
+- Try voting again to confirm the duplicate-vote block.
 
 ---
+
 ## Contributing
-Pull requests are welcome. Suggested improvements:
-
-Replace JSON with a proper database.
-
-Add fingerprint hashing or proper biometric validation.
-
-Add unit tests and end-to-end tests for the vote flow.
-
-Improve frontend UX and accessibility.
+- Pull requests are welcome. Suggested improvements:
+- Replace JSON with a proper database.
+- Add fingerprint hashing or proper biometric validation.
+- Add unit tests and end-to-end tests for the vote flow.
+- Improve frontend UX and accessibility.
