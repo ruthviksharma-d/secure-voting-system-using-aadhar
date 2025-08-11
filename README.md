@@ -39,7 +39,7 @@ secure-voting/
     "name": "John Doe",
     "aadhar": "123456789012",
     "fingerprintFile": "john_doe_fp.png",
-    "fingerprintHash": "sha256-abc123...", // optional, more secure
+    "fingerprintHash": "sha256-abc123...", 
     "voted": false
   },
   {
@@ -101,3 +101,5 @@ Add fingerprint hashing or proper biometric validation.
 Add unit tests and end-to-end tests for the vote flow.
 
 Improve frontend UX and accessibility.
+
+---
