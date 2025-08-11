@@ -19,7 +19,7 @@ Upload your fingerprint, the server verifies it against stored voter records and
 ---
 
 ## Project Structure
-
+```plaintext
 secure-voting/
 ├─ frontend/
 │  ├─ index.html
@@ -29,7 +29,7 @@ secure-voting/
 │  ├─ requirements.txt
 │  └─ voters.json
 └─ README.md
-
+```
 ---
 
 ## voters.json (example)
@@ -101,5 +101,3 @@ Add fingerprint hashing or proper biometric validation.
 Add unit tests and end-to-end tests for the vote flow.
 
 Improve frontend UX and accessibility.
-
----
