@@ -1,0 +1,50 @@
+[
+  {
+    "aadhar": "123456789012",
+    "name": "John Smith",
+    "fingerprint_file": "john_fingerprint.wsq",
+    "voted": true,
+    "vote_candidate": "Candidate A",
+    "vote_timestamp": "2025-08-11 19:27:46"
+  },
+  {
+    "aadhar": "234567890123",
+    "name": "Sarah Johnson",
+    "fingerprint_file": "sarah_fingerprint.jpg",
+    "voted": false,
+    "vote_candidate": null,
+    "vote_timestamp": null
+  },
+  {
+    "aadhar": "345678901234",
+    "name": "Michael Davis",
+    "fingerprint_file": "michael_fingerprint.png",
+    "voted": false,
+    "vote_candidate": null,
+    "vote_timestamp": null
+  },
+  {
+    "aadhar": "456789012345",
+    "name": "Emily Brown",
+    "fingerprint_file": "emily_fingerprint.jpeg",
+    "voted": false,
+    "vote_candidate": null,
+    "vote_timestamp": null
+  },
+  {
+    "aadhar": "567890123456",
+    "name": "David Wilson",
+    "fingerprint_file": "david_fingerprint.wsq",
+    "voted": false,
+    "vote_candidate": null,
+    "vote_timestamp": null
+  },
+  {
+    "aadhar": "123456789012",
+    "name": "RAM",
+    "fingerprint_file": "ram_fingerprint.jpeg",
+    "voted": false,
+    "vote_candidate": null,
+    "vote_timestamp": null
+  }
+]
